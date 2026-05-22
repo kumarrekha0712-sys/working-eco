@@ -1,0 +1,79 @@
+
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+  background:#f4f4f4;
+}
+
+nav{
+  background:#111;
+  color:white;
+  padding:15px 30px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.links{
+  display:flex;
+  gap:20px;
+}
+
+.links a{
+  color:white;
+  text-decoration:none;
+}
+
+.page{
+  padding:30px;
+}
+
+.hidden{
+  display:none;
+}
+
+#searchInput{
+  padding:10px;
+  width:250px;
+  margin-bottom:20px;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:20px;
+}
+
+.card{
+  background:white;
+  padding:15px;
+  border-radius:10px;
+  text-align:center;
+  box-shadow:0 2px 8px rgba(0,0,0,0.2);
+}
+
+.card img{
+  width:120px;
+  height:120px;
+  object-fit:contain;
+}
+
+.contact-form{
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+  max-width:400px;
+}
+
+.contact-form input,
+.contact-form textarea{
+  padding:10px;
+}
+
+.contact-form button{
+  padding:10px;
+  border:none;
+  background:#111;
+  color:white;
+  cursor:pointer;
+}
